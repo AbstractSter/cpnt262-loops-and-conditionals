@@ -7,4 +7,4 @@ for (let i = 0; i < 5; i++) {
   rightTriangle += "<br>";
 }
 
-document.write(rightTriangle);
+document.getElementById("right-triangle").innerHTML = rightTriangle;
