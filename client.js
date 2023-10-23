@@ -1,10 +1,10 @@
-let leftTriangle = "";
+let rightTriangle = "";
 
 for (let i = 0; i < 5; i++) {
   for (let j = 0; j <= i; j++) {
-    leftTriangle += "*";
+    rightTriangle += "*";
   }
-  leftTriangle += "<br>";
+  rightTriangle += "<br>";
 }
 
-document.write(leftTriangle);
+document.write(rightTriangle);
